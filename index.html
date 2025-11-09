@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bolalarni Futbol Treningiga Jalb Qilish — Slaydlar</title>
+<style>
+:root{
+  --bg:#0b0b0b;
+  --text:#f5f5f5;
+  --accent:#d4af37;
+  --accent2:#ffd700;
+  --muted:#999;
+  --radius:12px;
+  --shadow:0 12px 30px rgba(0,0,0,0.7);
+  --font:'Inter',system-ui,sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0;}
+html, body{height:100%;}
+body{
+  font-family:var(--font);
+  background:var(--bg);
+  color:var(--text);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  overflow:hidden;
+}
+.slide{
+  position:absolute;
+  top:0; left:0;
+  width:100%;
+  height:100%;
+  padding:60px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:flex-start;
+  transition:opacity .5s, transform .5s;
+  opacity:0;
+  transform:translateX(50px);
+  background:linear-gradient(135deg, rgba(0,0,0,0.85), rgba(20,20,20,0.85));
+}
+.slide.active{
+  opacity:1;
+  transform:translateX(0);
+}
+h1{
+  font-size:2rem;
+  margin-bottom:16px;
+  color:var(--accent);
+  text-shadow: 0 0 10px var(--accent2);
+}
+p{
+  margin-bottom:12px;
+  line-height:1.6;
+  font-size:1.05rem;
+  max-width:900px;
+  color:var(--text);
+}
+.img-wrap{
+  margin:16px 0 24px;
+  width:100%;
+}
+img{
+  width:500px;
+  max-width:90%;
+  border-radius:var(--radius);
+  box-shadow:var(--shadow);
+  display:block;
+  border: 2px solid var(--accent);
+}
+.nav{
+  position:absolute;
+  bottom:20px;
+  width:100%;
+  display:flex;
+  justify-content:space-between;
+  padding:0 40px;
+}
+button{
+  background:linear-gradient(90deg, var(--accent), var(--accent2));
+  border:none;
+  color:#000;
+  padding:14px 26px;
+  border-radius:var(--radius);
+  font-weight:700;
+  cursor:pointer;
+  font-size:1rem;
+  box-shadow:0 6px 18px rgba(212,175,55,0.5);
+  transition: all .3s ease;
+}
+button:hover{
+  transform:translateY(-3px);
+  box-shadow:0 8px 25px rgba(212,175,55,0.7);
+}
+@media(max-width:900px){
+  h1{font-size:1.5rem;}
+  p{font-size:0.95rem;}
+  img{width:100%;}
+  .slide{padding:36px;}
+  .nav{padding:0 18px 12px;}
+}
+</style>
+</head>
+<body>
+
+<section class="slide active">
+  <h1>1. Futbolga qiziqishni uyg‘otish</h1>
+  <div class="img-wrap">
+    <img src="https://images.unsplash.com/photo-1509021436665-8f07dbf5bf1d?q=80&w=1500&auto=format&fit=crop"
+         alt="Bolalar maydonda to'p bilan o'ynayotgan holat"
+         loading="lazy">
+  </div>
+  <p>Bolani futbolga jalb qilish uchun avvalo unda qiziqish uyg‘otish kerak. Qiziqish bo‘lmasa, bola mashqlarni bajarsa ham, ruhiy ishtiyoq bo‘lmaydi. Shuning uchun mashg‘ulotni doimo ijobiy energiya va tabassum bilan boshlang. Trenerning kayfiyati bolaga bevosita ta’sir qiladi. Bola trenerni qanchalik yoqtirsa, shunchalik mashg‘ulotlarga tirishadi. Futbolni o‘yin sifatida tasvirlash juda muhim. Hikoya shaklida o‘rgatilgan mashg‘ulotlar bolaga esda qoladi. Har bir kichik muvaffaqiyatni sezib, maqtash kerak. Bola o‘zining o‘sganini his qilsa, o‘zi harakat qiladi. Qiziqish — o‘sishning birinchi bosqichi. Unga alohida e'tibor bering.</p>
+</section>
+
+<section class="slide">
+  <h1>2. O‘yin orqali o‘rgatish</h1>
+  <div class="img-wrap">
+    <img src="https://images.unsplash.com/photo-1517927033932-b3d18e61fb3a?q=80&w=1500&auto=format&fit=crop"
+         alt="Kichik guruhda futbol o'ynayotgan bolalar"
+         loading="lazy">
+  </div>
+  <p>Bolalar o‘yin orqali eng samarali o‘rganishadi. Agar mashqlar faqat takrorlash va buyruqdan iborat bo‘lsa, bola charchaydi. Shu sababli mashqni doim o‘yin shaklida berish kerak. Masalan, to‘pni boshqarish musobaqasi, kichik maydon o‘yinlari, relle yugurishlar. 3x3 va 4x4 qisqa o‘yinlar bolalarda tez fikrlashni shakllantiradi. O‘yin davomida bola xato qilishdan qo‘rqmaydi. Qo‘rqmasdan o‘rganish esa rivojlanishning eng muhim omilidir. Motivatsiya o‘yin orqali tabiiy shakllanadi. Har o‘yin oxirida qisqa mulohaza qilish ham zarur. “Nima yaxshi bo‘ldi?”, “Qaysi joyda kuchayish kerak?” kabi savollar fikrlashni ochadi.</p>
+</section>
+
+<section class="slide">
+  <h1>3. Texnika asoslarini shakllantirish</h1>
+  <div class="img-wrap">
+    
+  </div>
+  <p>Futbolning poydevori — to‘p bilan muomala. To‘pni qabul qilish, uzatish, yurish — asosiy boshlang‘ich ko‘nikmalar hisoblanadi. Kichik yoshda mukammal natija talab qilinmaydi. Muhimi — to‘g‘ri qo‘yilgan odat. To‘pni oyoq ostida his qilishni o‘rgatish uchun ko‘p mayda mashqlar beriladi. Har kuni 5-10 daqiqa individual texnika yetarli. Bola xato qilsa, uni to‘xtatib tanqid qilish emas, davom ettirishga undang. Xato o‘rganishning bir qismidir.</p>
+</section>
+
+<section class="slide">
+  <h1>4. Bir xillikdan qochish</h1>
+  <div class="img-wrap">
+    <img src="https://images.unsplash.com/photo-1461896836934-ffe607ba8211?q=80&w=1500&auto=format&fit=crop"
+         alt="Turli mashqlar uchun konuslar va to'plar tayyorlangan maydon"
+         loading="lazy">
+  </div>
+  <p>Har kuni bir xil mashq bolani zeriktiradi. Mashqlarni segmentlarga bo‘ling: tezlik, koordinatsiya, texnika, kuch va mini-o‘yinlar. Har mashg‘ulotga kamida bitta yangi element qo‘shing. Maydon joylashuvini tez-tez o‘zgartiring. Ovozli signallar, rangli konuslar, kichik vazifalar qo‘shish motivatsiyani jonlantiradi. Har 10-12 daqiqada mashq turini almashtirish bola e’tiborini saqlaydi. O‘yinlar ham turli bo‘lishi kerak. Futbolning go‘zalligi — o‘zgarishda. Yangilik — motivatsiya yoqilg‘isi.</p>
+</section>
+
+<section class="slide">
+  <h1>5. Rag‘batlantirish tizimi</h1>
+  <div class="img-wrap">
+   
+  </div>
+  <p>Rag‘bat — bolalarning motoridir. Rag‘batni to‘g‘ri berish eng muhim vazifalardan biridir. Maqtov aniq bo‘lishi kerak: “Yaxshi ishlading” emas, “Sening to‘pni boshqarishing bugun yaxshiroq bo‘ldi” deyish kerak. Stickerlar, medallar, “haftaning futbolchisi” unvoni juda samarali. Ota-onalar oldida ijobiy ta’kid qilish ikki baravar motivatsiya beradi. Rag‘bat har doim me’yorda bo‘lsin — ortiqcha maqtov ham qadrini yo‘qotadi.</p>
+</section>
+
+<section class="slide">
+  <h1>6. Maqsadni tushuntirish</h1>
+  <div class="img-wrap">
+    <img src="https://images.unsplash.com/photo-1521412644187-c49fa049e84d?q=80&w=1500&auto=format&fit=crop"
+         alt="Trener bolalarga maqsadni tushuntiryapti"
+         loading="lazy">
+  </div>
+  <p>Bola nima uchun mashq qilayotganini bilsa, u o‘zini ongli ravishda tutadi. Mashg‘ulot boshida aniq vazifa qo‘ying. Mashg‘ulot oxirida bola o‘zidagi o‘zgarishni sezsa, o‘zi izlanadi. Maqsadlar kichik, sodda va o‘lchab bo‘ladigan bo‘lsin. Tushuntirishda murakkab so‘z ishlatmang. Bola uchun sodda til — to‘g‘ri til.</p>
+</section>
+
+<section class="slide">
+  <h1>7. Jamoaviy o‘ynashni shakllantirish</h1>
+  <div class="img-wrap">
+    <img src="https://images.unsplash.com/photo-1508609349937-5ec4ae374ebf?q=80&w=1500&auto=format&fit=crop"
+         alt="Jamoaviy ishlash va uzatish mashqlari"
+         loading="lazy">
+  </div>
+  <p>Futbolning yuragi — jamoa. Bola yakka holda o‘ynashni yaxshi ko‘rishi mumkin, lekin jamoaviy harakat qilishni o‘rgatish kerak. “Birga g‘alaba qilamiz” tamoyili juda muhim. O‘yin davomida bir-birini qo‘llab-quvvatlashni o‘rgating. Kichik jamoaviy topshiriqlar samarali. Hamkorlik — kelajak futbolchining poydevori.</p>
+</section>
+
+<section class="slide">
+  <h1>8. Intizom va hurmat</h1>
+  <div class="img-wrap">
+    
+  </div>
+  <p>Futbolda hurmat — eng asosiy qadriyat. Trenerga, jamoadoshga, raqibga hurmat bo‘lishi shart. Intizom jazolash orqali emas, tushuntirish va namuna orqali o‘rgatiladi. Kichik qoidalar yengil va tushunarli bo‘lsin. Intizom — futbolchi xarakterini shakllantiradi. To‘g‘ri shakllangan xarakter — maydonda ham, hayotda ham g‘alabaga olib boradi.</p>
+</section>
+
+<section class="slide">
+  <h1>9. Ota-onalar bilan hamkorlik</h1>
+  <div class="img-wrap">
+    <img src="https://images.unsplash.com/photo-1588072432836-e10032774350?q=80&w=1500&auto=format&fit=crop"
+         alt="Ota-onalar va trener suhbatlashyapti"
+         loading="lazy">
+  </div>
+  <p>Ota-onalar bolaning rivojlanishida katta rol o‘ynaydi. Trening jarayonini ota-onaga tushuntirish muhim. Har hafta kichik foto yoki video hisobot yuborish ota-onaga ishonch beradi. Oyiga bir marta ochiq mashg‘ulot o‘tkazish yaxshi samara beradi. Ota-onaning samimiy ishtiroki bolaning imkoniyatlarini kuchaytiradi. Muhit doim ijobiy bo‘lishi kerak.</p>
+</section>
+
+<div class="nav">
+  <button onclick="prevSlide()">← Oldingi</button>
+  <button onclick="nextSlide()">Keyingi →</button>
+</div>
+
+<script>
+const slides = Array.from(document.querySelectorAll('.slide'));
+let current = 0;
+function showSlide(i){
+  slides.forEach((s,idx)=> s.classList.toggle('active', idx===i));
+  current = i;
+}
+function nextSlide(){ showSlide((current + 1) % slides.length); }
+function prevSlide(){ showSlide((current - 1 + slides.length) % slides.length); }
+document.addEventListener('keydown', e => {
+  if(e.key === 'ArrowRight') nextSlide();
+  if(e.key === 'ArrowLeft') prevSlide();
+});
+</script>
+
+</body>
+</html>
